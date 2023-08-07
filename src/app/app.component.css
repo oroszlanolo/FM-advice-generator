@@ -1,0 +1,57 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    width: 100dvw;
+    padding: 1rem;
+}
+
+.card {
+    background-color: var(--col-neutral-400);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.75rem;
+    max-width: 600px;
+    border-radius: .75rem;
+    padding: 2.5rem;
+    position: relative;
+}
+
+.advice-id {
+    color: var(--col-primary-green);
+    font-size: .825rem;
+    letter-spacing: .25rem;
+}
+
+.advice-quote {
+    color: var(--col-primary-cyan);
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.divider {
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    background-color: var(--col-primary-green);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-2rem, 2rem);
+}
+
+button:hover {
+    box-shadow: var(--col-primary-green) 0px 0px 30px 3px;
+}
